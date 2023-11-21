@@ -15,6 +15,8 @@ Origin Repo: https://github.com/SewerKing/y2t
 
 以下内容来自于 Origin README
 
+## Origin README
+
 > Yapi 生成 Typescript`请求方法`及`声明文件`工具
 
 ## 插件安装

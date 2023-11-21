@@ -1,7 +1,7 @@
 {
-  "name": "y2t",
-  "version": "0.0.2",
-  "description": "Yapi 生成 Typescript`请求方法`及`声明文件`工具",
+  "name": "@yc-w-cn/yapi-to-typescript",
+  "version": "0.0.1",
+  "description": "Yapi 生成 Typescript`请求方法`及`声明文件`工具，支持 LDAP 登录",
   "main": "lib/core/core.js",
   "types": "lib/core/src/core.d.ts",
   "bin": {
@@ -12,8 +12,8 @@
     "diff": "ts-node --files -r tsconfig-paths/register ./src/index.ts -d",
     "build": "rollup -c"
   },
-  "author": "Wynne",
-  "license": "ISC",
+  "author": "Yuchen Wang <contact@wangyuchen.cn>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "commander": "^7.2.0",
