@@ -57,7 +57,7 @@ export function zhCN2EN (text: string): Promise<string> {
  * @return {*}
  */
 export function pathToHump (api: IApiInfoResponse, isBigHump = true): string {
-  let name = api.path.replace(/[{|}]/g, '').replace(/\//g, '_')
+  let name = api.path.replace(/[{|}#]/g, '').replace(/\//g, '_')
   name = underlineToHump(name, isBigHump)
   return name
 }
