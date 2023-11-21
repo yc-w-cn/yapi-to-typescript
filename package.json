@@ -17,7 +17,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "commander": "^7.2.0",
-    "inquirer": "^8.1.1",
+    "inquirer": "^9.2.12",
     "json-schema-to-typescript": "^10.1.4",
     "nedb": "^1.8.0",
     "single-line-log": "^1.1.2"
@@ -26,7 +26,7 @@
     "@rollup/plugin-alias": "^3.1.2",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
-    "@types/inquirer": "^7.3.2",
+    "@types/inquirer": "^9.0.7",
     "@types/multi-progress": "^2.0.3",
     "@types/nedb": "^1.8.11",
     "@types/node": "^16.18.63",
