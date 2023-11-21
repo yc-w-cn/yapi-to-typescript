@@ -19,6 +19,18 @@ export function underlineToHump (name: string, isBigHump = false): string {
 }
 
 /**
+ * @description 下划线转短横线
+ * @author Yuchen Wang
+ * @date 2023-11-22
+ * @param inputString {string}
+ * @return {string}
+ */
+function underlineToHyphen(inputString: string): string {
+  // 将下划线替换为连字符，并将结果转换为小写
+  return inputString.replace(/_/g, '-').toLowerCase();
+}
+
+/**
  * @description 中文转英文
  * @author Wynne
  * @date 2021-06-25
