@@ -1,6 +1,19 @@
 # Y2T with LDAP
 
 Note: 这个 Fork 增加了 LDAP 登录的支持。
+Origin Repo: https://github.com/SewerKing/y2t
+
+## isLDAP
+
+在 config 新增了 isLDAP 配置。
+
+```json
+{
+  isLDAP: true
+}
+```
+
+以下内容来自于 Origin README
 
 > Yapi 生成 Typescript`请求方法`及`声明文件`工具
 
