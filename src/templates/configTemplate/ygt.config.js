@@ -3,6 +3,8 @@ module.exports = {
   account: 'xxxxxx@xxx.cn',
   // 密码
   password: 'xxxxxx',
+  // isLDAP
+  isLDAP: false,
   // Yapi网址链接
   originUrl: 'https://yapi.xxx.cn/',
   // 请求声明模块
