@@ -26,4 +26,6 @@ export interface IConfig {
   tsIgnore: boolean,
   // 忽略eslint
   esLintIgnore: boolean
+  // 是否LDAP
+  isLDAP?: boolean
 }
