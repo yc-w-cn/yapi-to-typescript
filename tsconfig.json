@@ -13,7 +13,8 @@
       "@/*": ["src/*"]
     },
     "useUnknownInCatchVariables": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "strictNullChecks": false
   },
   "include": ["src"],
   "awesomeTypescriptLoaderOptions": {
