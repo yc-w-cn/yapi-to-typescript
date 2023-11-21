@@ -1,4 +1,6 @@
-# Y2T
+# Y2T with LDAP
+
+Note: 这个 Fork 增加了 LDAP 登录的支持。
 
 > Yapi 生成 Typescript`请求方法`及`声明文件`工具
 
